@@ -1,0 +1,25 @@
+{
+  "dataset_rows_evaluated": 1485,
+  "train_samples": 1113,
+  "test_samples": 372,
+  "random_state": 42,
+  "test_size": 0.25,
+  "kmeans_clusters": 7,
+  "test_silhouette": 0.28969612540762574,
+  "test_ari_vs_fqi_grades": 0.1398462245058651,
+  "test_cluster_purity": 0.6102150537634409,
+  "test_cluster_balanced_accuracy": 0.6098552321007081,
+  "test_cluster_binary_balanced_accuracy": 0.7949311740890688,
+  "cluster_to_grade_mapping_learned_on_train": {
+    "0": "Good",
+    "1": "Excellent",
+    "2": "Lower",
+    "3": "Good",
+    "4": "Excellent",
+    "5": "Lower",
+    "6": "Lower"
+  },
+  "moisture_threshold_learned_on_train": 68.4435864582,
+  "moisture_baseline_test_balanced_accuracy": 0.7646153846153847,
+  "moisture_baseline_train_balanced_accuracy": 0.7398366776898975
+}
